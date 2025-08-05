@@ -1,13 +1,14 @@
-# Food Delivery App UI
+# Zomato-Style Food Delivery Backend
 
-This is a simple frontend project for a food delivery application like Zomato or Swiggy. Built using HTML, CSS, and JavaScript.
+Simple Node.js + Express backend for food delivery apps like Zomato or Swiggy.
 
-## Features
+## Endpoints
 
-- Restaurant listing
-- Add to cart UI
-- Order confirmation screen
+- GET /api/restaurants - List all restaurants
+- GET /api/restaurants/:id - Get restaurant by ID
 
-## Author
+## How to Run
 
-Faiza Naaz 💻✨
+```bash
+npm install
+node server.js
